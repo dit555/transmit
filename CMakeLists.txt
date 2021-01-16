@@ -207,7 +207,6 @@ include_directories(
 
 add_executable(main 
 	src/main.cpp
-	header/transmit.h
-	src/transmit.c
+	src/transmit.cpp
 	)
 target_link_libraries(main ${catkin_LIBRARIES})
